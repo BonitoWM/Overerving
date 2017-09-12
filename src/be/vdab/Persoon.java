@@ -1,8 +1,7 @@
 package be.vdab;
 
 public class Persoon {
-    private String naam;
-    private String voornaam;
+    private String naam, voornaam;
     private Adres adres;
 
     public Persoon(String naam, String voornaam, String straat, String nummer, int postcode, String gemeente) {

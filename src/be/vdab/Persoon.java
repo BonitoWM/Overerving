@@ -4,7 +4,6 @@ public class Persoon {
     private String naam, voornaam;
     private Adres adres;
 
-
     public Persoon(String naam, String voornaam, String straat, String nummer, int postcode, String gemeente) {
         Adres adres = new Adres(straat, nummer, postcode, gemeente);
         new Persoon(naam, voornaam, adres);
